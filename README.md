@@ -67,8 +67,8 @@ spring.jpa.hibernate.ddl-auto=update
 
 1. Clona este repositorio:
    ```bash
-   git clone <URL_REPOSITORIO>
-   cd <DIRECTORIO_PROYECTO>
+   git clone [<URL_REPOSITORIO>](https://github.com/CarlosPProjects/heroes-api.git)
+   cd heroes-api
    ```
 
 2. Compila el proyecto con Maven:
