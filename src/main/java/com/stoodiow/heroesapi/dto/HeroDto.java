@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @NoArgsConstructor
@@ -15,5 +17,5 @@ public class HeroDto {
     private String publisher;
     private String alter_ego;
     private String first_appearance;
-    private String[] characters;
+    private List<String> characters;
 }

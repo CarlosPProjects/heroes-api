@@ -9,7 +9,6 @@ import com.stoodiow.heroesapi.service.HeroService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
 import java.util.List;
 
 @Service
@@ -53,7 +52,7 @@ public class HeroServiceImpl implements HeroService {
         hero.setPublisher(updatedHero.getPublisher());
         hero.setAlter_ego(updatedHero.getAlter_ego());
         hero.setFirst_appearance(updatedHero.getFirst_appearance());
-        hero.setCharacters(Arrays.asList(updatedHero.getCharacters()));
+        hero.setCharacters(updatedHero.getCharacters());
 
         Hero updatedHeroObj = heroRepository.save(hero);
 
